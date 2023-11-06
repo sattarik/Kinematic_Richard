@@ -8,5 +8,17 @@ Twenty-four subjects were recruited for this study. The subjects were approved b
 
 ![Scheme of the prediction model](https://ars.els-cdn.com/content/image/1-s2.0-S266709922300018X-gr1_lrg.jpg)
 
-(c) Scheme of an ESN including the input layer of EMG signals from 16 channels, reservoir, readout regularization node, and the output layer for JAs and GRFs.
 
+We designed an RNN model for estimating lower body joint angles (JAs) and ground reaction forces (GRFs) from surface-EMG sensors during a step-down task for individuals diagnosed with OA. 
+
+
+## Model hyperparameters
+Recurrent Neural Network (RNN)
+Optimizer: sgd; 
+Loss: MSE
+Metrics: RMSE
+RNN Layer: (512,1)
+Embedding Layer: (512,20)
+Batch Normalization: (512,20)
+1D Convolution Layer: (101,20)
+Dense Layer: (101,20)
