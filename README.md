@@ -6,7 +6,7 @@ https://www.sciencedirect.com/science/article/pii/S266709922300018X
 ## Overview
 Twenty-four subjects were recruited for this study. The subjects were approved by the University of Missouri internal review board (IRB #1212807) and all subjects provided informed consent. 
 
-![Scheme of the prediction model]([path/to/your/figure.png](https://ars.els-cdn.com/content/image/1-s2.0-S266709922300018X-gr1_lrg.jpg))
+![Scheme of the prediction model](path/to/your/figure.png](https://ars.els-cdn.com/content/image/1-s2.0-S266709922300018X-gr1_lrg.jpg)
 
 (c) Scheme of an ESN including the input layer of EMG signals from 16 channels, reservoir, readout regularization node, and the output layer for JAs and GRFs.
 
